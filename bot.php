@@ -8,7 +8,7 @@
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(E_ALL);
-ini_set('error_log', __DIR__ . '/logs/error/php-error.log');
+ini_set('error_log', __DIR__ . '/php-error.log');
 
 define('BOT_TOKEN', '<BOT_TOKEN>');
 define('API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN);
